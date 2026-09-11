@@ -1,0 +1,12 @@
+.rules-page{width:min(1180px,calc(100% - 40px));margin:auto;position:relative;z-index:2}.rules-hero,.rules-content{color:#eefbff}
+.rules-hero{padding:45px 0 70px;max-width:850px}.rules-hero h1{font-size:clamp(78px,11vw,150px);margin-bottom:25px}.rules-hero p{max-width:760px;color:#3d5d69;font-size:17px;line-height:1.75}.rules-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}
+.rules-layout{display:grid;grid-template-columns:255px 1fr;gap:28px;align-items:start;padding-bottom:80px}
+.rules-menu{position:sticky;top:20px;padding:20px;border-radius:20px;background:rgba(7,17,23,.88);border:1px solid rgba(101,216,255,.18);box-shadow:0 18px 45px rgba(0,76,112,.12);backdrop-filter:blur(12px)}
+.menu-title{font:25px "Bebas Neue",Impact,sans-serif;letter-spacing:1.5px;margin-bottom:13px;color:#0879bd}.rules-menu a{display:block;text-decoration:none;color:#c7e4ed;font-size:13px;font-weight:800;padding:10px 9px;border-radius:9px;line-height:1.2}.rules-menu a:hover{background:#65d8ff;color:#061117}
+.rules-content{display:flex;flex-direction:column;gap:17px}
+.rule-category{padding:32px;border-radius:23px;background:rgba(7,17,23,.88);border:1px solid rgba(101,216,255,.18);box-shadow:0 17px 42px rgba(0,0,0,.35);scroll-margin-top:20px}
+.category-head{display:flex;align-items:center;gap:17px;padding-bottom:21px;margin-bottom:20px;border-bottom:2px solid rgba(8,121,189,.12)}.category-head>span{font:45px "Bebas Neue",Impact,sans-serif;color:#0879bd;line-height:1}.category-head small{font-size:10px;font-weight:900;letter-spacing:2px;color:#7896a2}.category-head h2{font:40px "Bebas Neue",Impact,sans-serif;letter-spacing:.7px;margin-top:2px}
+.rule-category ol{padding-left:25px}.rule-category li{padding-left:7px;margin:0 0 14px;color:#a7c3ce;line-height:1.72;font-size:15px}.rule-category li::marker{color:#0879bd;font-weight:900}
+.rules-note{padding:28px;border-radius:20px;background:#071016;color:#d8f5ff;line-height:1.75;font-size:14px;border-left:6px solid #65d8ff}.rules-note strong{color:#65d8ff}
+@media(max-width:850px){.rules-layout{grid-template-columns:1fr}.rules-menu{position:relative;top:auto;display:grid;grid-template-columns:1fr 1fr;gap:3px}.menu-title{grid-column:1/-1}.category-head h2{font-size:34px}}
+@media(max-width:520px){.rules-page{width:calc(100% - 28px)}.rules-hero{padding-top:30px}.rules-hero h1{font-size:75px}.rules-hero p{font-size:15px}.rules-menu{grid-template-columns:1fr}.rule-category{padding:23px}.category-head>span{font-size:38px}.category-head h2{font-size:31px}.rule-category li{font-size:14px}}
